@@ -7,7 +7,7 @@ body {
   width: 999px;
   margin: 0 auto;
   background-color: #ff9500;
-  padding: O 20px 20px 20px;
+  padding: 0 20px 20px 20px;
   border: 5px solid black;
 }
 
@@ -26,7 +26,8 @@ li {
 }
 
 image {
-  width: 50px;
+  width: auto;
+  height: auto;
   display: block;
   margin: 0 auto;
 }
