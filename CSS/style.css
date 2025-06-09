@@ -1,0 +1,77 @@
+li {
+  list-style-type: square;
+}
+
+.special {
+  color: green;
+  font-weight: bold;
+}
+
+li em {
+  color: orange;
+}
+
+h1 + p {
+  font-size: 200%;
+}
+
+body h1 + p .special {
+  color: yellow;
+  background-color: black;
+  padding: 5px;
+}
+
+#three {
+  color: blue;
+}
+
+h1:hover {
+  color: aqua;
+}
+
+button:hover {
+  background-color: lightblue;
+}
+
+/* 第一行总是 bold，无论有多少个字符 */
+article p::first-line {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+/* CSS 中插入字符串 */
+.four::before {
+  content: "一只可爱的猫";
+}
+.four::after {
+  content: "我是一个可爱的人";
+}
+
+ul > li {
+  border-top: 5px solid red;
+}
+
+.box {
+  background-color: lightblue;
+  border: 5px solid darkblue;
+  padding: 10px;
+  margin: 1em 0;
+}
+
+.wrapper {
+  font-size: 1em;
+}
+
+.px {
+  width: 200px;
+}
+
+.vw {
+  width: 10vw;
+}
+
+.em {
+  width: 10em;
+  opacity: 0.4;
+}
+
